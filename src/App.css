@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+#header {
+  background-color: aliceblue;
+  padding: 0.5em;
+  height: 7%;
+}
+
+#content {
+  height: 93%;
+}
+
+.ant-segmented {
+  height: 100%;
+  background-color: #caf0f8;
+}
+
+.ant-segmented * {
+  margin: auto;
+  display: flex;
+  height: 100%;
+}
+
+.ant-segmented-item-label {
+  align-items: center;
+}
